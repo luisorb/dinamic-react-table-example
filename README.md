@@ -1,8 +1,5 @@
-# React + Vite
+# Uso del método ```map``` para renderizar filas en una tabla.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El método ```map```es una función de arreglo en JavaScript que se utiliza para transformar cada elemento de un arreglo en un nuevo arreglo. En React, se utiliza comúnmente para renderizar listas y tablas.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En este ejemplo, se utiliza el método ```map``` para transformar cada elemento de la lista de documentos en un elemento ```<tr>```(fila de la tabla) con sus correspondientes ```<td>``` (columnas de la fila). El ```key``` se utiliza para identificar cada elemento de manera única.
